@@ -11,6 +11,9 @@ inputs:
     description: 'The OpenAI language model to use for code review'
     required: false
     default: 'gpt-3.5-turbo'
+  azure_openai_endpoint:
+    description: 'The Azure OpenAI endpoint'
+    required: true
   openai-key:
     description: 'The OpenAI API key'
     required: true
